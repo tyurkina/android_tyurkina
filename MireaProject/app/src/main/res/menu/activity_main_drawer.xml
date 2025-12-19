@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_data"
+            android:title="@string/data_fragment" />
+        <item
+            android:id="@+id/nav_webview"
+            android:icon="@drawable/ic_web"
+            android:title="@string/webview_fragment" />
+        <item
+            android:id="@+id/nav_background_task"
+            android:icon="@drawable/ic_background_work"
+            android:title="Фоновая задача" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_compass"
+            android:title="Компас" />
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Фото-коллаж" />
+
+        <item
+            android:id="@+id/nav_microphone"
+            android:icon="@drawable/ic_microphone"
+            android:title="Аудио-заметки" />
+    </group>
+</menu>

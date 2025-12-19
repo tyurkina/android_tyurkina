@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="camera_image">Camera Image</string>
+    <string name="tap_to_take_photo">Tap to take photo</string>
+    <string name="camera_permission_required">Camera permission is required to take photos</string>
+    <string name="storage_permission_required">Storage permission is required to save photos</string>
+</resources>

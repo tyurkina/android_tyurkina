@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Тут появится название вашей любимой книги и любимая цитата из нее!"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonOpenInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть экран ввода данных"
+        android:onClick="getInfoAboutBook"
+        android:backgroundTint="@color/purple_500" />
+
+</LinearLayout>

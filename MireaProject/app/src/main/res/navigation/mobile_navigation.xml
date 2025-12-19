@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mirea.tyurkinaia.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mirea.tyurkinaia.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mirea.tyurkinaia.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.mirea.tyurkinaia.mireaproject.DataFragment"
+        android:label="@string/data_fragment"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="com.mirea.tyurkinaia.mireaproject.WebViewFragment"
+        android:label="@string/webview_fragment"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.mirea.tyurkinaia.mireaproject.WebViewFragment"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_background_task"
+        android:name="com.mirea.tyurkinaia.mireaproject.BackgroundTaskFragment"
+        android:label="Фоновая задача"
+        tools:layout="@layout/fragment_background_task" />
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.mirea.tyurkinaia.mireaproject.CompassFragment"
+        android:label="Компас"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.mirea.tyurkinaia.mireaproject.CameraFragment"
+        android:label="Фото-коллаж"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="com.mirea.tyurkinaia.mireaproject.MicrophoneFragment"
+        android:label="Аудио-заметки"
+        tools:layout="@layout/fragment_microphone" />
+</navigation>
