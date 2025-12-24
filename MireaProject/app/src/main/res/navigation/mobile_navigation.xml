@@ -59,4 +59,24 @@
         android:name="com.mirea.tyurkinaia.mireaproject.MicrophoneFragment"
         android:label="Аудио-заметки"
         tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mirea.tyurkinaia.mireaproject.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="com.mirea.tyurkinaia.mireaproject.FilesFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_files" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.mirea.tyurkinaia.mireaproject.NewsFragment"
+        android:label="Новости"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.mirea.tyurkinaia.mireaproject.MapsFragment"
+        android:label="Карты и маршруты"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
