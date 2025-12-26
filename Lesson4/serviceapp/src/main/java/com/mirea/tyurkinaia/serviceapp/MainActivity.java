@@ -13,6 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private static final int PERMISSION_REQUEST_CODE = 100;
+    private static final String MUSIC_FILE_NAME = "my_music";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

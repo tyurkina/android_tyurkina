@@ -6,7 +6,7 @@
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MapsFragment">
+        tools:context=".ui.MapsFragment">
 
         <com.yandex.mapkit.mapview.MapView
             android:id="@+id/mapView"
